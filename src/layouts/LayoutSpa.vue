@@ -7,14 +7,16 @@ import Header from "./Header.vue";
       <Header />
     </v-app-bar>
     <v-navigation-drawer width="150" border="none">
-      <slot name="sidebar-right"></slot>
+      <slot name="sidebar-left"></slot>
     </v-navigation-drawer>
     <v-navigation-drawer location="right" width="150" border="none">
-      <slot name="sidebar-left"></slot>
+      <slot name="sidebar-right"></slot>
     </v-navigation-drawer>
     <v-main>
       <slot></slot>
     </v-main>
-    <v-footer></v-footer>
+    <v-footer>
+      <slot name="footer"></slot>
+    </v-footer>
   </v-app>
 </template>
