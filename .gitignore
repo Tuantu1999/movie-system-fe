@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+coverage/
+.nyc_output/
+.eslintcache
+.stylelintcache
+.cache/
+.temp/
+.tmp/
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+.vite/
+
+# Package manager
+.pnpm-store/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Local history
+.history/

@@ -1,0 +1,9 @@
+{
+  "message": {
+    "hello": "hello world"
+  },
+  "common": {
+    "login": "Login",
+    "logout": "Logout"
+  }
+}

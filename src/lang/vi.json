@@ -1,0 +1,9 @@
+{
+  "message": {
+    "hello": "xin chào thế giới"
+  },
+  "common": {
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất"
+  }
+}
