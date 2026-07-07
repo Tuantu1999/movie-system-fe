@@ -4,6 +4,12 @@
   },
   "common": {
     "login": "Đăng nhập",
-    "logout": "Đăng xuất"
+    "logout": "Đăng xuất",
+    "memberCard": "Thẻ Thành viên",
+    "support": "Hỗ trợ",
+    "english": "Tiếng Anh",
+    "vietnamese": "Tiếng Việt",
+    "profile": "Hồ sơ",
+    "settings": "Cài đặt"
   }
 }

@@ -4,6 +4,12 @@
   },
   "common": {
     "login": "Login",
-    "logout": "Logout"
+    "logout": "Logout",
+    "memberCard": "Member Card",
+    "support": "Support",
+    "english": "English",
+    "vietnamese": "Vietnamese",
+    "profile": "Profile",
+    "settings": "Settings"
   }
 }

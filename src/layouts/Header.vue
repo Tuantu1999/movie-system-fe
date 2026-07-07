@@ -28,8 +28,8 @@ const login = () => {
         </template>
         {{ $t("common.login") }}
       </v-btn>
-      <div>Member Card</div>
-      <div>Support</div>
+      <div>{{ $t("common.memberCard") }}</div>
+      <div>{{ $t("common.support") }}</div>
       <Actions v-if="isAuthenticated" />
       <Language />
     </v-col>

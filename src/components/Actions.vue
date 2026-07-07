@@ -26,7 +26,9 @@ const handleClick = (value: string) => {
         :value="index"
         @click="handleClick(item.value)"
       >
-        <v-list-item-title>{{ item.title }}</v-list-item-title>
+        <v-list-item-title>{{
+          $t(`common.${item.title.toLowerCase()}`)
+        }}</v-list-item-title>
       </v-list-item>
     </v-list>
   </v-menu>
