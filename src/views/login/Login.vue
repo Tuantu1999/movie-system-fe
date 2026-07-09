@@ -34,6 +34,10 @@ const handleSubmit = async (e: Event) => {
 const register = () => {
   router.push({ path: "/register" });
 };
+
+const forgotPassword = () => {
+  router.push("/forgot-password");
+};
 </script>
 
 <template>
@@ -50,40 +54,42 @@ const register = () => {
         </div>
 
         <v-form ref="form">
-          <v-row dense class="pa-8">
+          <v-row class="pa-8" density="compact">
             <v-col cols="12">
               <v-text-field
-                v-model="loginModel.userName"
+                density="compact"
                 :label="t('common.userName')"
                 prepend-inner-icon="mdi-account"
                 variant="outlined"
                 :rules="[$rules.required]"
+                v-model="loginModel.userName"
               />
             </v-col>
 
             <v-col cols="12">
               <v-text-field
-                v-model="loginModel.password"
+                density="compact"
                 :label="t('common.password')"
                 :type="showPassword ? 'text' : 'password'"
                 prepend-inner-icon="mdi-lock"
                 :append-inner-icon="showPassword ? 'mdi-eye-off' : 'mdi-eye'"
                 variant="outlined"
                 :rules="[$rules.required]"
+                v-model="loginModel.password"
                 @click:append-inner="showPassword = !showPassword"
               />
             </v-col>
 
             <v-col cols="12" class="d-flex align-center justify-space-between">
               <v-checkbox
-                v-model="loginModel.remember"
                 :label="t('common.rememberMe')"
                 density="compact"
                 hide-details
+                v-model="loginModel.remember"
               />
               <a
-                href="#"
-                class="text-decoration-none text-deep-purple-accent-1"
+                class="text-decoration-none text-deep-purple-accent-1 cursor-pointer"
+                @click="forgotPassword"
               >
                 {{ t("common.forgotPassword") }}
               </a>

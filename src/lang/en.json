@@ -18,8 +18,9 @@
     "loginSubtitle": "Sign in to continue to your account",
     "registerSubtitle": "Create your account to get started",
     "password": "Password",
+    "newPassword": "New Password",
     "fullName": "Full Name",
-    "email": "Email",
+    "email": "Email address",
     "phoneNumber": "Phone Number",
     "confirmPassword": "Confirm Password",
     "rememberMe": "Remember me",
@@ -32,7 +33,11 @@
     "required": "This field is required",
     "validEmail": "Please enter a valid email",
     "passwordMin": "Password must be at least 6 characters",
-    "passwordMatch": "Passwords do not match"
+    "passwordMatch": "Passwords do not match",
+    "backToLogin": "Back to login",
+    "sendEmail": "Send Email",
+    "or": "OR",
+    "resetPassword": "Reset Password"
   },
   "validation": {
     "required": "This field is required",

@@ -18,8 +18,9 @@
     "loginSubtitle": "Đăng nhập để tiếp tục vào tài khoản của bạn",
     "registerSubtitle": "Tạo tài khoản để bắt đầu trải nghiệm",
     "password": "Mật khẩu",
+    "newPassword": "Mật khẩu mới",
     "fullName": "Họ và tên",
-    "email": "Email",
+    "email": "Địa chỉ email",
     "phoneNumber": "Số điện thoại",
     "confirmPassword": "Xác nhận mật khẩu",
     "rememberMe": "Ghi nhớ đăng nhập",
@@ -32,7 +33,11 @@
     "required": "Trường này là bắt buộc",
     "validEmail": "Vui lòng nhập email hợp lệ",
     "passwordMin": "Mật khẩu phải có ít nhất 6 ký tự",
-    "passwordMatch": "Mật khẩu không khớp"
+    "passwordMatch": "Mật khẩu không khớp",
+    "backToLogin": "Quay lại đăng nhập",
+    "sendEmail": "Gửi Email",
+    "or": "hoặc",
+    "resetPassword": "Đặt lại Mật khẩu"
   },
   "validation": {
     "required": "Trường này là bắt buộc",
