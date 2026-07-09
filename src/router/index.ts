@@ -1,17 +1,15 @@
-/**
- * router/index.ts
- *
- * Manual routes for ./src/pages/*.vue
- */
-
-// Composables
 import { createRouter, createWebHistory } from "vue-router";
-import Intro from "@/views/intro/Intro.vue";
+import Login from "@/views/login/Login.vue";
+import Register from "@/views/login/Register.vue";
 
 const routes = [
   {
     path: "/login",
-    component: Intro,
+    component: Login,
+  },
+  {
+    path: "/register",
+    component: Register,
   },
 ];
 

@@ -17,3 +17,6 @@
 <script lang="ts" setup>
 import LayoutSpa from "./layouts/LayoutSpa.vue";
 </script>
+<style lang="scss">
+@use "./styles/custom.scss";
+</style>

@@ -10,6 +10,37 @@
     "english": "Tiếng Anh",
     "vietnamese": "Tiếng Việt",
     "profile": "Hồ sơ",
-    "settings": "Cài đặt"
+    "settings": "Cài đặt",
+    "userName": "Tên đăng nhập/Email",
+    "register": "Đăng ký",
+    "welcomeBack": "Chào mừng trở lại",
+    "createAccount": "Tạo tài khoản",
+    "loginSubtitle": "Đăng nhập để tiếp tục vào tài khoản của bạn",
+    "registerSubtitle": "Tạo tài khoản để bắt đầu trải nghiệm",
+    "password": "Mật khẩu",
+    "fullName": "Họ và tên",
+    "email": "Email",
+    "phoneNumber": "Số điện thoại",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "rememberMe": "Ghi nhớ đăng nhập",
+    "forgotPassword": "Quên mật khẩu?",
+    "agreeTerms": "Tôi đồng ý với các điều khoản và điều kiện",
+    "dontHaveAccount": "Chưa có tài khoản?",
+    "alreadyHaveAccount": "Đã có tài khoản?",
+    "signIn": "Đăng nhập",
+    "submitRegister": "Tạo tài khoản",
+    "required": "Trường này là bắt buộc",
+    "validEmail": "Vui lòng nhập email hợp lệ",
+    "passwordMin": "Mật khẩu phải có ít nhất 6 ký tự",
+    "passwordMatch": "Mật khẩu không khớp"
+  },
+  "validation": {
+    "required": "Trường này là bắt buộc",
+    "email": "Vui lòng nhập email hợp lệ",
+    "phone": "Vui lòng nhập số điện thoại hợp lệ",
+    "password": "Mật khẩu phải có ít nhất 6 ký tự",
+    "minLength": "Phải có ít nhất {min} ký tự",
+    "maxLength": "Tối đa {max} ký tự",
+    "match": "Giá trị không khớp"
   }
 }

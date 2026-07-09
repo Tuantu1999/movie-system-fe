@@ -10,6 +10,37 @@
     "english": "English",
     "vietnamese": "Vietnamese",
     "profile": "Profile",
-    "settings": "Settings"
+    "settings": "Settings",
+    "userName": "User Name/Email",
+    "register": "Register",
+    "welcomeBack": "Welcome back",
+    "createAccount": "Create an account",
+    "loginSubtitle": "Sign in to continue to your account",
+    "registerSubtitle": "Create your account to get started",
+    "password": "Password",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "confirmPassword": "Confirm Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "agreeTerms": "I agree to the terms and conditions",
+    "dontHaveAccount": "Don't have an account yet?",
+    "alreadyHaveAccount": "Already have an account?",
+    "signIn": "Sign In",
+    "submitRegister": "Create Account",
+    "required": "This field is required",
+    "validEmail": "Please enter a valid email",
+    "passwordMin": "Password must be at least 6 characters",
+    "passwordMatch": "Passwords do not match"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email",
+    "phone": "Please enter a valid phone number",
+    "password": "Password must be at least 6 characters",
+    "minLength": "Must be at least {min} characters",
+    "maxLength": "Must be at most {max} characters",
+    "match": "Values do not match"
   }
 }
